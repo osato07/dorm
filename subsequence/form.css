@@ -1,0 +1,86 @@
+.titleImage {
+    width: 181px;
+    height: 181px;
+    margin-top: 101px;
+    margin-bottom: 25px;
+    pointer-events: none;
+}
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.form-group {
+    height: auto;
+    min-height: 80px;
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.form-group p {
+    height: 22px;
+    width: 100%;
+    margin: 0 0 4px 0;
+    font-size: 14px;
+    color: #FFFAEF;
+}
+.form-group input {
+    height: 54px;
+    width: calc(100% - 20px);
+    border-radius: 15px;
+    background-color: #FFFAEF;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #006D47;
+    border: none;
+}
+.form-group textarea {
+    height: calc(108px + 20px);
+    width: calc(100% - 20px);
+    border-radius: 15px;
+    background-color: #FFFAEF;
+    padding: 10px;
+    font-size: 14px;
+    color: #006D47;
+}
+.form-group select {
+    height: 54px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #FFFAEF;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #006D47;
+}
+input[type="datetime-local"] {
+    height: 54px;
+    width: calc(100% - 20px);
+    border-radius: 15px;
+    background-color: #FFFAEF;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #006D47;
+    border: none;
+}
+input[type="submit"] {
+    height: 54px;
+    width: calc(80% - 20px);
+    border-radius: 15px;
+    background-color: #FFFAEF;
+    padding: 0 10px;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #006D47;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border: none;
+}

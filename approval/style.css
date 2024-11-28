@@ -1,0 +1,41 @@
+html {
+    background-color: #006D47;
+}
+#main {
+    width: 100%;
+    height: calc(100vh - 244px - 225px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topImage {
+    width: 100%;
+    height: 244px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.bottomImage {
+    width: 100%;
+    height: 225px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+button {
+    height: 54px;
+    width: calc(80% - 20px);
+    border-radius: 15px;
+    background-color: #FFFAEF;
+    padding: 0 10px;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #006D47;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border: none;
+}
